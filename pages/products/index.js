@@ -1,10 +1,16 @@
-const Products = () => {
+import Link from "next/link";
+
+const Products = ({ productId = 10 }) => {
   return (
     <div>
-      <h1>Product 1</h1>
-      <h1>Product 2</h1>
-      <h1>Product 3</h1>
-      <h1>Product 4</h1>
+      <Link href="/">Home</Link>
+      <Link href="/products/1">Product 1</Link>
+      <Link href="/products/2">Product 2</Link>
+      <Link href="/products/3">Product 3</Link>
+      <Link href="/products/4">Product 4</Link>
+      <Link href={`/products/${productId}`} replace>
+        Product {productId}
+      </Link>
     </div>
   );
 };
