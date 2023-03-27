@@ -3,18 +3,7 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      <ul>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        <li>
-          <Link href="/products">Products</Link>
-        </li>
-        <li>
-          <Link href="profile">Profile</Link>
-        </li>
-      </ul>
+      <h1 className="text-4xl text-rose-500 text-center">Home page</h1>
     </div>
   );
 };
