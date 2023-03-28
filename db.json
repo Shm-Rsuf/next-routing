@@ -15,5 +15,10 @@
       "title": "Mascara",
       "price": 100
     }
+  ],
+  "frameworks": [
+    { "id": 1, "title": "bootstrap", "core": "css" },
+    { "id": 2, "title": "next.js", "core": "react" },
+    { "id": 3, "title": "vue.js", "core": "javascript" }
   ]
 }
